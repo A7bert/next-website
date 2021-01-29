@@ -15,15 +15,15 @@ const Heading = styled.h1`
   font-weight: 800;
 `;
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>Next</Heading>
+        <Heading>About</Heading>
       </Hero>
     </>
   )
